@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículo de Ana Júlia Miranda Vasconcelos – estudante de Ciência da Computação em busca de estágio em desenvolvimento back-end.">
+  <meta name="author" content="Ana Júlia Miranda Vasconcelos">
+  <title>Ana Júlia Vasconcelos – Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de ações (não aparece na impressão) -->
+  <nav class="toolbar" aria-label="Ações do currículo">
+    <button type="button" id="btn-tema" class="btn" aria-label="Alternar tema claro/escuro">
+      <span class="icon" aria-hidden="true">◐</span> <span id="tema-label">Tema escuro</span>
+    </button>
+    <button type="button" id="btn-imprimir" class="btn btn-primary">
+      <span class="icon" aria-hidden="true">⤓</span> Salvar em PDF
+    </button>
+  </nav>
+
+  <div class="page">
+
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Currículo</p>
+        <h1>Ana Júlia Miranda Vasconcelos</h1>
+        <p class="role">Estudante de Ciência da Computação · Desenvolvimento Back-end</p>
+      </div>
+
+      <address class="contacts">
+        <span class="contact-item">
+          <span class="contact-label">Local</span>
+          São José dos Campos – SP
+        </span>
+        <a class="contact-item" href="tel:+5512988432674">
+          <span class="contact-label">Telefone</span>
+          (12) 98843-2674
+        </a>
+        <span class="contact-item">
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:ana.vasconcelos2511@gmail.com" id="email">ana.vasconcelos2511@gmail.com</a>
+          <button type="button" class="copy-btn" data-copy="ana.vasconcelos2511@gmail.com" aria-label="Copiar e-mail">Copiar</button>
+        </span>
+        <!-- Quando tiver, descomente e preencha:
+        <a class="contact-item" href="https://linkedin.com/in/SEU-PERFIL" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span> linkedin.com/in/SEU-PERFIL
+        </a>
+        <a class="contact-item" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span> github.com/SEU-USUARIO
+        </a>
+        -->
+      </address>
+    </header>
+
+    <main class="layout">
+
+      <!-- Coluna lateral -->
+      <aside class="sidebar">
+
+        <section class="block reveal">
+          <h2>Habilidades técnicas</h2>
+          <h3 class="mini">Linguagens</h3>
+          <ul class="tags">
+            <li>Python</li><li>C</li><li>C++</li><li>JavaScript</li>
+          </ul>
+          <h3 class="mini">Web</h3>
+          <ul class="tags">
+            <li>HTML5</li><li>CSS3</li>
+          </ul>
+          <h3 class="mini">Outros</h3>
+          <ul class="tags">
+            <li>Arduino</li><li>Eletrônica básica</li><li>IA no desenvolvimento</li>
+          </ul>
+        </section>
+
+        <section class="block reveal">
+          <h2>Competências</h2>
+          <ul class="plain">
+            <li>Comunicação e trabalho em equipe</li>
+            <li>Responsabilidade e pontualidade</li>
+            <li>Adaptabilidade e boas relações interpessoais</li>
+          </ul>
+        </section>
+
+        <section class="block reveal">
+          <h2>Formação</h2>
+          <div class="edu">
+            <p class="edu-title">Bacharelado Interdisciplinar em Ciência e Tecnologia</p>
+            <p class="edu-sub">Trajetória em Ciência da Computação</p>
+            <p class="edu-meta">UNIFESP · <time datetime="2024">2024</time> – atual</p>
+          </div>
+          <div class="edu">
+            <p class="edu-title">Técnico em Automação Industrial</p>
+            <p class="edu-sub">Integrado ao ensino médio · Python e C++</p>
+            <p class="edu-meta">IFSP · <time datetime="2021">2021</time> – <time datetime="2023">2023</time></p>
+          </div>
+          <div class="edu">
+            <p class="edu-title">Criação de sites com HTML5, CSS3 e JavaScript</p>
+            <p class="edu-sub">Curso complementar</p>
+            <p class="edu-meta">Curso em Vídeo · <time datetime="2026">2026</time></p>
+          </div>
+        </section>
+
+      </aside>
+
+      <!-- Coluna principal -->
+      <div class="content">
+
+        <section class="block reveal">
+          <h2>Resumo</h2>
+          <p class="summary">
+            Estudante de Ciência da Computação (BCT – UNIFESP) e técnica em Automação Industrial (IFSP),
+            em busca de estágio em desenvolvimento back-end. Experiência com Python, C e C++, estágio em
+            suporte técnico com participação no desenvolvimento do novo site da empresa e projeto de
+            robótica com código em C++.
+          </p>
+        </section>
+
+        <section class="block reveal">
+          <h2>Experiência profissional</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Estagiária – Analista de Suporte Técnico</h3>
+              <p class="entry-org">Controlart Desenvolvimentos Eletrônicos</p>
+            </div>
+            <ul>
+              <li>Atendi demandas técnicas de clientes, resolvendo-as de forma ágil e com comunicação profissional.</li>
+              <li>Analisei a estrutura e as principais funcionalidades do site antigo da empresa, servindo de base para o novo projeto.</li>
+              <li>Colaborei com o time de Engenharia nas primeiras etapas de desenvolvimento do novo site da empresa.</li>
+              <li>Preparei e utilizei uma ferramenta de IA para apoiar o gerenciamento e o desenvolvimento do código do novo site.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="block reveal">
+          <h2>Projetos</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Robô de hóquei</h3>
+              <p class="entry-org">Agremiação de Robótica UNIFESP</p>
+            </div>
+            <ul>
+              <li>Desenvolvi o código de funcionamento do robô em C++, como responsável pela programação da equipe.</li>
+            </ul>
+            <ul class="tags tags-small"><li>C++</li><li>Robótica</li></ul>
+          </article>
+        </section>
+
+        <section class="block reveal">
+          <h2>Atividades extracurriculares</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Agremiação de Robótica – UNIFESP</h3>
+              <p class="entry-org">Coordenação de RH e Marketing</p>
+            </div>
+            <ul>
+              <li>Responsável pelo departamento de Recursos Humanos: gestão de pessoas e clima organizacional.</li>
+              <li>Responsável pelo departamento de Marketing: gestão das redes sociais da agremiação.</li>
+            </ul>
+          </article>
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Ensino de Arduino em escolas públicas</h3>
+              <p class="entry-org">Voluntariado</p>
+            </div>
+            <ul>
+              <li>Planejei e ministrei aulas introdutórias de Arduino e eletrônica para alunos do ensino médio.</li>
+            </ul>
+          </article>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Ana Júlia Miranda Vasconcelos · Atualizado em <span id="ano-atual">2026</span></p>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
